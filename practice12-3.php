@@ -1,6 +1,7 @@
 <?php
-$fruits = ["apple","strawberry","cherry","grape","muscat"];
+$fruits = ["apple", "strawberry", "cherry", "grape", "muscat"];
 
-foreach ($fruits as $fruits) {
-    echo $fruits;
+foreach ($fruits as $fruit) {
+    echo $fruit;
+    echo PHP_EOL;
 }
